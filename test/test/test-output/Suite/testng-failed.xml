@@ -3,16 +3,113 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Com.Sample.testcases.SearchTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="reportFlush"/>
+          <include name="Setup"/>
+          <include name="Search"/>
+          <include name="init"/>
+          <include name="startTest"/>
+          <include name="AddToCart"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.SearchTest -->
+      <class name="Com.Sample.testcases.SignoutTest">
+        <methods>
+          <include name="SignouttTest"/>
+          <include name="teardown"/>
+          <include name="reportFlush"/>
+          <include name="Setup"/>
+          <include name="startTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.SignoutTest -->
+      <class name="Com.Sample.testcases.FavoritesTest">
+        <methods>
+          <include name="AddToWishlist"/>
+          <include name="teardown"/>
+          <include name="reportFlush"/>
+          <include name="Setup"/>
+          <include name="DeleteFromWishlist"/>
+          <include name="startTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.FavoritesTest -->
       <class name="Com.Sample.testcases.AddaddressTest">
         <methods>
           <include name="AddInvalidAddresstest"/>
           <include name="teardown"/>
           <include name="reportFlush"/>
+          <include name="AddValidAddresstest"/>
           <include name="Setup"/>
           <include name="init"/>
           <include name="startTest"/>
         </methods>
       </class> <!-- Com.Sample.testcases.AddaddressTest -->
+      <class name="Com.Sample.testcases.DeleteAddressTest">
+        <methods>
+          <include name="DeleteAddressTest1"/>
+          <include name="Setup"/>
+          <include name="teardown"/>
+          <include name="EditAddressTest"/>
+          <include name="reportFlush"/>
+          <include name="startTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.DeleteAddressTest -->
+      <class name="Com.Sample.testcases.OrdersTest">
+        <methods>
+          <include name="OrderTest"/>
+          <include name="teardown"/>
+          <include name="reportFlush"/>
+          <include name="FilterOrderTest"/>
+          <include name="Setup"/>
+          <include name="startTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.OrdersTest -->
+      <class name="Com.Sample.testcases.SuperCoinZoneTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="reportFlush"/>
+          <include name="SuperCoinZoneTest1"/>
+          <include name="Setup"/>
+          <include name="startTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.SuperCoinZoneTest -->
+      <class name="Com.Sample.testcases.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="reportFlush"/>
+          <include name="Incorrectemailtest"/>
+          <include name="Setup"/>
+          <include name="correctemailtest"/>
+          <include name="init"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.LoginTest -->
+      <class name="Com.Sample.testcases.SellerTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="teardown"/>
+          <include name="reportFlush"/>
+          <include name="SellerTest1"/>
+          <include name="init"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.SellerTest -->
+      <class name="Com.Sample.testcases.WishlistTest">
+        <methods>
+          <include name="Wishlist"/>
+          <include name="teardown"/>
+          <include name="reportFlush"/>
+          <include name="DeleteWishlist"/>
+          <include name="Setup"/>
+          <include name="init"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- Com.Sample.testcases.WishlistTest -->
       <class name="Com.Sample.testcases.FilterTest">
         <methods>
           <include name="teardown"/>
@@ -25,16 +122,6 @@
           <include name="init"/>
         </methods>
       </class> <!-- Com.Sample.testcases.FilterTest -->
-      <class name="Com.Sample.testcases.LoginTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="reportFlush"/>
-          <include name="Incorrectemailtest"/>
-          <include name="Setup"/>
-          <include name="startTest"/>
-          <include name="init"/>
-        </methods>
-      </class> <!-- Com.Sample.testcases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Com.Sample.testcases.LoginTest">
+      <class name="Com.Sample.testcases.SearchTest">
         <methods>
           <include name="teardown"/>
           <include name="reportFlush"/>
           <include name="Setup"/>
-          <include name="correctemailtest"/>
+          <include name="Search"/>
           <include name="init"/>
           <include name="startTest"/>
         </methods>
-      </class> <!-- Com.Sample.testcases.LoginTest -->
+      </class> <!-- Com.Sample.testcases.SearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
